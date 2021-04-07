@@ -1,0 +1,49 @@
+#N canvas 952 0 958 966 10;
+#X obj 420 144 makefilename %c;
+#X symbolatom 192 39 40 0 0 0 - - -;
+#X obj 420 104 bng 15 250 50 0 empty empty empty 17 7 0 10 -258113
+-1 -1;
+#X obj 99 414 text3d;
+#X obj 189 377 openpanel;
+#X obj 189 359 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 189 397 font \$1;
+#X obj 438 322 gemwin;
+#X msg 438 262 create \, 1;
+#X obj 99 34 gemhead;
+#X msg 217 311 text \$1;
+#X symbolatom 217 292 20 0 0 0 - - -;
+#X obj 217 271 l2s;
+#X text 438 102 click for line break;
+#X text 444 41 first text line;
+#X msg 420 122 10;
+#X msg 173 156 add2 \$1;
+#X msg 217 198 list hello 
+;
+#X obj 177 101 t b s;
+#X msg 225 120 set list;
+#X obj 189 70 t s b;
+#X msg 448 292 0 \, destroy;
+#X text 299 199 <------- click this to send the text to screen;
+#X text 210 356 <-------------- Must Open a font file for it to work
+;
+#X connect 0 0 16 0;
+#X connect 1 0 20 0;
+#X connect 2 0 15 0;
+#X connect 4 0 6 0;
+#X connect 5 0 4 0;
+#X connect 6 0 3 0;
+#X connect 8 0 7 0;
+#X connect 9 0 3 0;
+#X connect 10 0 3 0;
+#X connect 11 0 10 0;
+#X connect 12 0 11 0;
+#X connect 15 0 0 0;
+#X connect 16 0 17 0;
+#X connect 17 0 12 0;
+#X connect 18 0 2 0;
+#X connect 18 1 16 0;
+#X connect 19 0 17 0;
+#X connect 20 0 18 0;
+#X connect 20 1 19 0;
+#X connect 21 0 7 0;
