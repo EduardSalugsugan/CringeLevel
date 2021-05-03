@@ -1,3 +1,4 @@
+Cringe Face:
 R_eye 2.439, 2.630, 2.332, 3.420, 3.149
 L_eye 2.44, 2.655, 2.252, 3.472, 3.142
 Jaw 22.76, 18.84, 22.24, 19.53, 21.48
@@ -6,3 +7,28 @@ R_eyebrow 7.051, 6.509, 6.258, 7.095, 6.632
 L_eyebrow 7.013, 6.453, 6.236, 7.138,6.777
 mouth_height 1.578, 1.453, 1.042, 0.939, 0.886
 mouth_width 14.05, 18.61, 17.36, 14.90, 18.98
+
+Regular Face:
+Nostrils 6.842, 6.862, 6.807, 6.637, 7.041
+R_eyebrow 6.443, 7.823, 7.253, 7.634, 7.420
+L_eyebrow 6.454, 7.792, 7.319, 7.667, 7.505
+mouth_width 14.93, 14.58, 14.51, 14.64, 14.28
+
+
+Regular Face (Average):
+Nostrils 6.8378
+R_eyebrow 7.3146
+L_eyebrow 7.3474
+mouth_width 14.588
+
+Cringe Face (Average):
+Nostrils 7.5078
+R_eyebrow 6.709
+L_eyebrow 6.7234
+mouth_width 16.78
+
+Data use for program:
+Nostrils 0.67
+R_eyebrow 0.6056
+L_eyebrow 0.624
+mouth_width -2.192
