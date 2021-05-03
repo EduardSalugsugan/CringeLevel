@@ -17,18 +17,18 @@ mouth_width 14.93, 14.58, 14.51, 14.64, 14.28
 
 Regular Face (Average):
 Nostrils 6.8378
-R_eyebrow 7.3146
-L_eyebrow 7.3474
+R_eyebrow 6.709
+L_eyebrow 6.7234
 mouth_width 14.588
 
 Cringe Face (Average):
 Nostrils 7.5078
-R_eyebrow 6.709
-L_eyebrow 6.7234
+R_eyebrow 7.3146
+L_eyebrow 7.3474
 mouth_width 16.78
 
 Data use for program:
 Nostrils 0.67
-R_eyebrow 0.6056
-L_eyebrow 0.624
-mouth_width -2.192
+R_eyebrow 0.615
+L_eyebrow 0.615
+mouth_width 2.192
