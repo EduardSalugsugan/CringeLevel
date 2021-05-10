@@ -1,4 +1,4 @@
-#N canvas 955 0 956 988 10;
+#N canvas -8 -8 1920 997 10;
 #X declare -lib mrpeach;
 #X obj 660 29 udpreceive 8338;
 #X obj 660 59 unpackOSC;
@@ -114,10 +114,9 @@ eyebrow for volume boost;
 #X obj 174 286 > 3;
 #X obj 279 332 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X text -34 242 This piece of code does all the logical stuff and to
+#X text -41 248 This piece of code does all the logical stuff and to
 see if your facial expression has changed to what we concieve as a
 cringe.;
-#X text 484 68;
 #X text 423 33 This patch is to set up your regular face. It's an indicator
 if your face cringes or not;
 #X connect 0 0 1 0;
